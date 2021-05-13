@@ -7,3 +7,4 @@ Learn bash script with the help of tutorials and documents.
 - 'which bash' for know which bash we are using.
 - 'echo' for print something
 - How to declare a variable : '$variableName'.
+- for getting ip address with  single command : ifconfig | grep broadcast | awk '{print $2}'
