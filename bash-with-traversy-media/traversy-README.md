@@ -3,3 +3,9 @@
 - `x` - Executable
 - `which bash` - Helps to identify which bash is using the system.
 - `#` - using for command in bash script
+- `-eq` - Return true if the values in both sides are equal.
+- `-ne` - Return true if the value is both sides ate not equal.
+- `-gt` - Return true if the value of left side is greater than right one.
+- `-ge` - Return true if the value of left side is greater than or equal to right one.
+- `-lt` - Return true if the value of left side is smaller than right one.
+- `-le` - Return true if the value of left side is smallerthan or equal to right one.
