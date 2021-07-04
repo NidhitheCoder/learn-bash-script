@@ -43,12 +43,31 @@
 #   echo "You are not Julia or Helen. Your name is $USER"
 # fi
 
-# Comparison
-NUM1=3
-NUM2=5
-if [ "$NUM1" -gt "$NUM2" ]
+# # Comparison
+# NUM1=3
+# NUM2=5
+# if [ "$NUM1" -gt "$NUM2" ]
+# then
+# echo "$NUM1 is greater than $NUM2"
+# else
+# echo "$NUM1 is less than $NUM2"
+# fi
+
+# # FILE CONDITIONS
+
+# FILE="test.txt"
+# if [ -f "$FILE" ]
+# then
+#   echo "$FILE is a file"
+# else
+#   echo "$FILE is not a file"
+# fi
+
+FILE="test.txt"
+
+if [ -e "$FILE" ]
 then
-echo "$NUM1 is greater than $NUM2"
+  echo "$FILE is existing"
 else
-echo "$NUM1 is less than $NUM2"
+  echo "$FILE is NOT existing"
 fi
