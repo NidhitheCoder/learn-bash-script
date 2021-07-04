@@ -111,8 +111,21 @@
 # done < "./New-Text-1.txt"
 
 # # FUNCTION
-sayHello() {
-  echo "Hello world"
-}
+# sayHello() {
+#   echo "Hello world"
+# }
 
-sayHello
+# sayHello
+
+# # FUNCTION WITH PARAMETERS
+# greet() {
+#   echo "Hello, I am $1 and I am $2 years old"
+# }
+
+# greet "Smith" 23
+
+# # CREATE FOLDER AND WRITE TO A FILE
+mkdir hello
+touch hello/world.txt
+echo "Hello World" >> hello/world.txt
+echo "Created file hello/world.txt"
