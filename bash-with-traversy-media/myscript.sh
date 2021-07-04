@@ -63,11 +63,32 @@
 #   echo "$FILE is not a file"
 # fi
 
-FILE="test.txt"
+# FILE="test.txt"
 
-if [ -e "$FILE" ]
-then
-  echo "$FILE is existing"
-else
-  echo "$FILE is NOT existing"
-fi
+# if [ -e "$FILE" ]
+# then
+#   echo "$FILE is existing"
+# else
+#   echo "$FILE is NOT existing"
+# fi
+
+# # CASE STATEMENT
+# read -p "Are you 21 or over ? Y/N " ANSWER
+# case "$ANSWER" in
+#   [yY] | [yY][eE][sS])
+#     echo "You can have a beer :-)"
+#     ;;
+#   [nN] | [nN][oO])
+#     echo "Sorry No drinking"
+#     ;;
+#   *)
+#     echo "Please enter Yes/No"
+#     ;;
+# esac
+
+# # SIMPLE FOR LOOP
+NAMES="Jerin Sara Helen Smith"
+for NAME in $NAMES
+do
+  echo "Hello $NAME"
+done
