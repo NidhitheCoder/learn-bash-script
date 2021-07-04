@@ -87,8 +87,32 @@
 # esac
 
 # # SIMPLE FOR LOOP
-NAMES="Jerin Sara Helen Smith"
-for NAME in $NAMES
-do
-  echo "Hello $NAME"
-done
+# NAMES="Jerin Sara Helen Smith"
+# for NAME in $NAMES
+#   do
+#     echo "Hello $NAME"
+# done
+
+# # FOR LOOP TO RENAME FILES
+# FILES=$(ls *.txt)
+# NEW="New"
+# for FILE in $FILES
+#   do
+#     echo "Renaming $FILE to new-$FILE"
+#     mv $FILE $NEW-Text-$FILE
+# done
+
+# # WHILE LOOP READ THROUGH A FILE LINE BY LINE
+# LINE=1
+# while read -r CURRENT_LINE
+#   do
+#     echo "$LINE : $CURRENT_LINE"
+#     LINE=$(($LINE+1))
+# done < "./New-Text-1.txt"
+
+# # FUNCTION
+sayHello() {
+  echo "Hello world"
+}
+
+sayHello

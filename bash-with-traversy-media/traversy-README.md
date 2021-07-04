@@ -20,6 +20,9 @@
 - `-u` - Check if the user id is set on a file.
 - `-w` - True if the file is writable.
 - `-x` - True if the file is executable.
-- `touch fileName` - Helps to create a new file.
+- `touch fileName` - Helps to create a new file. You can create Multiple files in a single command with,
+          ``` touch fileName1 fileName2 fileName3 ```
 - `rm fileName` - Helps to delete a file.
 - `mkdir folderName` - Helps to create a new directory/folder.
+- `*.txt` - * with extension helps to get all files with the given extension.
+- `mv FileName New-FileName` - Helps to renaming file.
